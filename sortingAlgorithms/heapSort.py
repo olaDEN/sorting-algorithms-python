@@ -11,7 +11,7 @@ friends = [{'name': 'Rachel', 'Year': '1969'},{'name': 'Ross', 'Year': '1966'},{
 df = pd.DataFrame(friends)
 
 print(df.sort_values(by='Year',
-kind='heapsort')) # the built-in sort_values() uses merge sort algorithm
+kind='heapsort')) # the built-in sort_values() uses heap sort algorithm
 print('\n')
 print(df.sort_values(by='name',
 kind='heapsort'))
