@@ -28,8 +28,8 @@ sort_name = 'name'
 
 
 year_sorted_friends = selection_sort(friends,sort_year )
-print(f'\nAfter selection Sorting (ascending) by \'year\':\n', *year_sorted_friends, sep='\n')
+print(f'\nAfter selection Sorting (descending) by \'year\':\n', *year_sorted_friends, sep='\n')
 
 name_sorted_friends = selection_sort(friends,sort_name )
-print(f'\nAfter selection Sorting (descending) by \'name\':\n', *name_sorted_friends, sep='\n')
+print(f'\nAfter selection Sorting (ascending) by \'name\':\n', *name_sorted_friends, sep='\n')
 
