@@ -26,9 +26,9 @@ sort_name = 'name'
 
 
 year_sorted_friends = bubbleSort(friends,sort_year )
-print(f'\nAfter Bubble Sorting (ascending) by \'year\':\n', *year_sorted_friends, sep='\n')
+print(f'\nAfter Bubble Sorting (descending) by \'year\':\n', *year_sorted_friends, sep='\n')
 
 name_sorted_friends = bubbleSort(friends,sort_name )
-print(f'\nAfter Bubble Sorting (descending) by \'name\':\n', *name_sorted_friends, sep='\n')
+print(f'\nAfter Bubble Sorting (ascending) by \'name\':\n', *name_sorted_friends, sep='\n')
 
     
